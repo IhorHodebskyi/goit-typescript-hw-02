@@ -7,7 +7,7 @@ type Page1Type = {
   likes: number;
   accounts: string[];
   status: string;
-  details: {
+  details?: {
     createAt: Date;
     updateAt: Date;
   };
