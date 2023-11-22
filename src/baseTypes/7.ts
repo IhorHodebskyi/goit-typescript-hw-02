@@ -7,8 +7,5 @@ enum Role {
   Sunday = "Sunday ",
 }
 const isWeekend = (day: string): boolean => {
-  if (day === Role.Saturday || day === Role.Sunday) {
-    return true;
-  }
-  return false;
+  return day === Role.Saturday || day === Role.Sunday;
 };
